@@ -102,22 +102,26 @@ section {
 /* About me section */
 .about {
     display: flex;
+    max-width: 100%;
     align-items: center;
-    gap: 5rem;
-    border: solid black 2px;
-    padding: 10rem 15px;
+    gap: 3rem;
+    padding: 100px auto;
+    flex-wrap: wrap;
+    justify-content: center;
       
 }
 .about-me-img img {
     max-width: 100%;
-    width: 700px;
+    width: 600px;
     height: auto;
+    
 }
 
 .about-me h2 {
     font-size: 45px;
     color: var(--whitesmoke);
-    text-shadow: 2px 2px 4px black;
+    text-shadow: 2px 2px 4px var(--lightblue);
+    text-align: center;
     
 }
 
@@ -125,7 +129,7 @@ section {
     font-size: 17px;
     font-weight: bold;
     color: var(--whitesmoke);
-    font-weight: 500;
+    font-weight: 400;
     text-shadow: 1px 1px 3px black;
     
 }
@@ -137,7 +141,7 @@ section {
     font-size: 40px;
     color: var(--whitesmoke);
     font-weight: 400;
-    text-shadow: 2px 2px 4px black; 
+    text-shadow: 2px 2px 4px var(--lightblue); 
 }
 
 .mywork {
@@ -150,15 +154,19 @@ section {
     
 }
 
-
-.row img {
+ .row .sec-work,
+ .row #third-work {
     max-width: 100%;
-    width: 400px;
-    height: auto;
+    width: 300px;
     border-radius: 10px;
-    object-fit: contain;
-    
+     
 }
+
+.row #first-work{
+    width: 600px;
+}
+
+
 
 .row h3 {
     font-size: 30px;
@@ -183,5 +191,4 @@ section {
     transition: .4s ease-in-out;
     cursor: grab;
 }
-
 
