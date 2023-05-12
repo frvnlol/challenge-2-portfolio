@@ -25,6 +25,8 @@ How I learned to use [Transition CSS Property](https://developer.mozilla.org/en-
 
 How I learned to use [Grid Template Columns](https://developer.mozilla.org/en-US/docs/Web/CSS/grid-template-columns)
 
+Some design inspiration from [click me](https://www.youtube.com/watch?v=1vCc0e5ypK0&t=2753s&ab_channel=TahmidAhmed)
+
 ## License
 
 Please refer to LICENSE in the repository.
