@@ -1,6 +1,7 @@
 :root{
     --whitesmoke: whitesmoke;
     --lightblue: rgb(40, 200, 244);
+    --medfont: 18px;
 }
 
 
@@ -51,7 +52,7 @@ header h1 .port {
 
 .navbar a {
     color: var(--whitesmoke);
-    font-size: 16px;
+    font-size: var(--medfont);
     padding: 10px 20px;
     text-decoration: none;
 }
@@ -88,7 +89,7 @@ header h1 .port {
 }
 
 .top-text h3{
-    font-size: 18px;
+    font-size: var(--medfont);
     color: var(--whitesmoke);
     margin-bottom: 5px;
 }
@@ -116,14 +117,14 @@ header h1 .port {
 }
 
 .about-me h2 {
-    font-size: 45px;
+    font-size: 40px;
     color: var(--whitesmoke);
     text-shadow: 2px 2px 4px var(--lightblue);
     text-align: center;
 }
 
 .about-me p {
-    font-size: 17px;
+    font-size: var(--medfont);
     font-weight: bold;
     color: var(--whitesmoke);
     font-weight: 400;
@@ -142,20 +143,21 @@ header h1 .port {
 
 .mywork {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(300px, auto));
     margin-top: 40px;
     grid-gap: 2rem;
     align-items: center;
 }
 
- .row .sec-work,
- .row #third-work {
+.row .sec-work,
+.row #third-work {
     max-width: 100%;
     width: 300px;
     border-radius: 10px;
 }
 
 .row #first-work{
+    max-width: 100%;
     width: 600px;
 }
 
@@ -186,7 +188,7 @@ header h1 .port {
 
 .contact-center {
     text-align: center;
-    font-size: 50px;
+    font-size: 45px;
     color: white;
     margin-bottom: 50px;
 }
@@ -208,3 +210,11 @@ header h1 .port {
     color: var(--lightblue);
     transition: .2s ease-in-out;
 }
+/* Footer */
+.footer {
+    font-size: 25px;
+    text-align: center;
+    color: var(--whitesmoke);
+    text-shadow: 2px 2px 3px var(--lightblue);
+}
+
